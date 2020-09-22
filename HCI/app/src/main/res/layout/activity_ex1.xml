@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Burpees"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <ImageView
+            android:id="@+id/ex1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+
+            android:src="@drawable/ex1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:fontFamily="sans-serif"
+            android:textSize="20dp"
+            android:text="A burpee is as complete of a full-body exercise as can be. This exercise combines a squat, plank, push-up, and jump forward, exploding up and down. When a burpee is done right, it improves all aspect of your fitness: cardio, strength, and speed.It conditions the heart and lungs by getting the heart rate up and pumping. It also tones your arms, core, and legs. Burpees also burn tons of calories, helping you lose weight and burn fat."/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Crunches "
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/ex8"
+            android:src="@drawable/ex8"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:text="The crunch is one of the most basic and most common abdominal exercises used to strengthen the core muscles. The exercise targets primarily the rectus abdominal muscle but also works the obliques.
+
+Crunches are a lot like sit-ups except you lift your upper back instead of the entire back. This isolates the abdominal muscles without engaging the hip muscles which can put strains on the lower back. The crunch exercise is also more beginner-friendly than situps.
+
+To do a crunch, simply begin by lying face up on the floor with knees bent.
+
+The movement begins by curling the shoulders towards the pelvis. Your hands can be behind or beside the neck or crossed over the chest. Injury can be caused by pushing against or pulling the head or neck with hands.
+
+Overall this exercise is great for strengthening and toning the abs. And once you learn the basic crunches, you can also try other crunch variations such as reverse crunches, bicycle crunches, twist crunches, and side crunches. "/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lunges"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/ex5"
+            android:src="@drawable/ex5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif"
+            android:text="Lunges are a good exercise for strengthening, sculpting and building several muscles/muscle groups, including the quadriceps (or thighs), the gluteus maximus (or buttocks), and hamstrings.
+
+There several ways to do a lunge. The most basic lunge is performed by:
+
+Standing up straight, feet are hip-width apart. Position your hands at the waist.
+
+Take a big step forward with your right leg. You should now be standing with one foot in front of you. Bend your front (right) knee so that it is at a 90-degree angle with the floor. Your back (left) knee should be almost touching the floor.
+
+Keep your weight on your front (right) heel. Contract your front (right) quad, hamstrings, and glutes to push yourself back up to the starting position. Switch the legs and repeat on your left side. Alternate sides with each rep."/>
+    </LinearLayout>
+</ScrollView>

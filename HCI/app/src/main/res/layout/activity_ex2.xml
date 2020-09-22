@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumping Jacks "
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/ex2"
+            android:src="@drawable/ex2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:text="A jumping jack is a calisthenic exercise that starts from a standing position with legs together and arms at your sides and jumps up, bringing the hands overhead and legs spread wide in the air.
+
+You return to the starting position on the ground repeat the jumps for the prescribed number of repetitions.
+
+The primary of benefits of jumping jacks is it elevates your heart rate, so it conditions the cardiovascular system and strengthens the legs, arms and core. Jumping jacks makes a fantastic exercise to do at home or anywhere for all fitness levels. Here's how to it correctly with proper form. "/>
+    </LinearLayout>
+</ScrollView>

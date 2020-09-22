@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dips"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/ex10"
+            android:src="@drawable/ex10"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:text="The dip is an exercise used in strength training to target the upper body, primarily the triceps, chest, triceps, and front shoulders.
+
+To perform the triceps dips:
+
+Position your hands shoulder-width apart on a secured bench or stable chair. Slide your butt off the front of the bench with your legs extended out in front of you.
+
+Straighten your arms, keeping a little bend in your elbows to keep tension off your elbow joints and on your triceps. Pull your shoulders back and down. Slowly bend your elbows to lower your body towards the floor until your elbows form about a 90-degree angle. Be sure to keep your back close to the bench.
+
+Once you reach the bottom of the movement, press down into the bench with your hands to straighten your elbows, returning to the starting position. This completes one rep, continue for the prescribed number of repetitions.
+
+Keep your shoulders down as you lower and raise your body for the entire exercise."/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,312 @@
+<ScrollView android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/back"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:text="Fruits "
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/fab"
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:text="Food"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="47dp"
+                android:layout_height="50dp"
+
+                android:background="@drawable/add" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Serving Size       "
+                android:textSize="15dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:id="@+id/fser"
+                android:text="0"
+                android:fontFamily="sans-serif"
+                android:inputType="number"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/type1"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:text="  whole" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:text="Vegetables "
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/veg"
+                android:layout_width="204dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:text="Food"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:background="@drawable/add" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="40dp"
+                android:fontFamily="sans-serif"
+                android:text="Serving Size       "
+                android:textSize="15dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:id="@+id/vser"
+                android:text="0"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/type2"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:text="  whole"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:text="Proteins "
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/pro"
+                android:layout_width="203dp"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif"
+                android:text="Food"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="46dp"
+                android:layout_height="50dp"
+
+                android:background="@drawable/add" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:text="Serving Size       "
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:id="@+id/pser"
+                android:textColor="@color/white"
+                android:text="0"
+                android:inputType="number"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/type3"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:text="  whole" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="70dp"
+                android:fontFamily="sans-serif"
+                android:text="Common Meals"
+                android:textColor="@color/white"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/cm"
+                android:layout_width="204dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:text="Food" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="47dp"
+                android:layout_height="50dp"
+
+                android:background="@drawable/add" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="117dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:text="Serving Size       "
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:id="@+id/cser"
+                android:textColor="@color/white"
+                android:text="0"
+                android:fontFamily="sans-serif"
+                android:inputType="number"/>
+
+            <TextView
+                android:id="@+id/type4"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="  whole"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:text="Beverages  "
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <Spinner
+                android:id="@+id/bev"
+                android:layout_width="206dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="sans-serif"
+                android:text="Food" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="46dp"
+                android:layout_height="50dp"
+
+                android:background="@drawable/add" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:text="Serving Size       "
+                android:textSize="15dp" />
+
+            <EditText
+                android:layout_width="177dp"
+                android:layout_height="40dp"
+                android:id="@+id/bser"
+                android:text="0"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:id="@+id/type5"
+                android:layout_width="76dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="  whole"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

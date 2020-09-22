@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/back"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:textColor="@color/white"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Hello"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:id="@+id/q1"
+            android:textColor="@color/white"
+            android:text="@string/q1"
+            android:textSize="23dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/qa">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/q11"
+
+                android:text="@string/q11"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lw1"
+                android:fontFamily="sans-serif"
+                android:text="@string/q12"
+                android:textColor="@color/white"
+                />
+
+            <RadioButton
+                android:id="@+id/lw2"
+                android:layout_width="133dp"
+                android:layout_height="42dp"
+                android:text="@string/q13"
+                android:textColor="@color/white" />
+        </RadioGroup>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/q2"
+            android:textSize="23dp"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:text="@string/q2"/>
+
+        <RadioGroup
+            android:id="@+id/qb"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+                    <RadioButton
+                        android:id="@+id/q21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="12"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/q21"
+                        android:textColor="@color/white" />
+
+                    <RadioButton
+                        android:id="@+id/q22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/q22"
+                        android:textColor="@color/white" />
+
+
+                    <RadioButton
+                        android:id="@+id/q23"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ems="12"
+                        android:fontFamily="sans-serif"
+                        android:text="@string/q23"
+                        android:textColor="@color/white" />
+
+                    <RadioButton
+                        android:id="@+id/q24"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:ems="10"
+                        android:text="@string/q24"
+                        android:textColor="@color/white" />
+
+        </RadioGroup>
+        <TextView
+            android:layout_width="367dp"
+            android:layout_height="match_parent"
+            android:id="@+id/q3"
+            android:textSize="23dp"
+            android:text="@string/q3"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:layout_weight="13.75" />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/qc">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/male"
+                android:fontFamily="sans-serif"
+                android:text="@string/q31"
+                android:textColor="@color/white"
+                android:ems="7"
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/female"
+                android:fontFamily="sans-serif"
+                android:text="@string/q32"
+
+                android:textColor="@color/white"
+
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/unit"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"
+            android:textSize="23dp"
+            android:text="@string/unit"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/unit1"
+            android:fontFamily="sans-serif"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="43dp"
+                android:id="@+id/kg"
+                android:fontFamily="sans-serif"
+                android:text="@string/kg"
+                android:textColor="@color/white"
+                android:ems="10"
+                />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lb"
+                android:fontFamily="sans-serif"
+                android:text="@string/lb"
+                android:textColor="@color/white"
+                />
+        </RadioGroup>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/q4"
+            android:fontFamily="sans-serif"/>
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Enter Age"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+        <EditText
+            android:id="@+id/ht"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/h"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/q5"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"/>
+        <EditText
+            android:id="@+id/cwt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/cwt"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/q6"
+            android:textColor="@color/white"
+            android:fontFamily="sans-serif"/>
+        <EditText
+            android:id="@+id/gwt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/gwt"
+            android:textColor="@color/white"
+            android:layout_marginTop="15dp"
+            android:fontFamily="sans-serif"/>
+
+
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:fontFamily="sans-serif"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"/>
+
+
+    </LinearLayout>
+</ScrollView>

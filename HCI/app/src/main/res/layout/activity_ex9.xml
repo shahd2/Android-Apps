@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pull Ups "
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/ex9"
+            android:src="@drawable/ex9"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:text= "Pull-ups are one of the best strength building exercises there is. A traditional pull-up relies on upper body strength with no swinging or kipping (using a forceful initial movement of the legs in order to gain momentum).
+
+The exercise mostly targets the latissimus dorsi muscle of the back along with other assisting muscles like the biceps.
+
+A pull-up can be performed with any grip, but traditional pull-ups are performed with a palms-forward position.
+
+To do a pull-up:
+
+Grab the pull-up bar with an overhand grip, palms facing forward about shoulder-width apart. Hanging from the bar with your arms straight. Raise your feet off the floor by bending your knees.
+
+Pull yourself up by pulling your body up towards the bar until your chin passes the bar. Lower yourself all the way down until your arms are fully straight. Repeat 1-4 for the prescribed number of repetitions."/>
+    </LinearLayout>
+</ScrollView>

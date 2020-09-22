@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plank "
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/ex7"
+            android:src="@drawable/ex7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:fontFamily="sans-serif"
+            android:paddingRight="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:text="A plank is a simple static exercise that involves maintaining your body in one position. It's similar to a push-up except you hold the top position for the duration of the time.
+
+The exercise primarily develops strength in your core —the muscles that connect the upper and lower body—Your shoulders, arms, and glutes are also engaged during the exercise.
+
+There are many variations to the plank, but the most common plank is the front plank which is held in a push-up-like position, with the body's weight supported on your forearms, elbows, and toes. Other variations are the side plank and the reverse plank.  "/>
+    </LinearLayout>
+</ScrollView>

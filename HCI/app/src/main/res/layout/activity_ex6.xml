@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Push-Ups "
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textAppearance="?android:textAppearanceLarge"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/ex6"
+            android:src="@drawable/ex6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_marginTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:fontFamily="sans-serif"
+            android:paddingBottom="20dp"
+            android:textSize="20dp"
+            android:text="A push-up is an exercise in which a person lies facing the floor and with their back straight and raises their body by pressing down on their hands. This exercise looks simple enough, but it's one of the most challenging and effective exercises around.
+
+In fact, if you can only have to time to do one exercise a day, let it be a push-up. It's that effective.
+
+Push-up literally works every muscle in your body—all at once. According to a study, certain variations of the pushups use about 76 percent of your total body weight.
+
+This all-in-one move exercise will strengthen the core, tone up your upper body and all lower body including the legs and butt.
+
+Even your quads will feel sore the nex day just from doing a few reps."/>
+    </LinearLayout>
+</ScrollView>
