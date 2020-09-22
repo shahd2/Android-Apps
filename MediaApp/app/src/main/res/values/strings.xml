@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MediaPlayerTestActivity</string>
+    <string name="audio_player">Audio Player</string>
+    <string name="video_player">VIDEO PLAYER</string>
+    <string name="voice_recorder">VOICE RECORDER</string>
+    <string name="video_recorder">VIDEO RECORDER</string>
+</resources>
