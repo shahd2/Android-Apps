@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context="com.example.user.maploc.message">
+<TextView
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter Your Message Here"
+    android:textAppearance="?android:textAppearanceLarge"
+    android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/getmsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I am here: "
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:id="@+id/mg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save" />
+</LinearLayout>

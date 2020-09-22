@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+    <Button android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:id="@+id/sensor_list_btn"
+        android:background="@drawable/xyz"
+        android:text="SENSOR LIST" />
+    <Button android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:id="@+id/accelerometer_btn"
+        android:background="@drawable/xyz"
+        android:text="ACCELEROMETER" />
+
+    <Button
+        android:id="@+id/bouncing_ball_btn"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/xyz"
+        android:text="BOUNCING BALL" />
+
+    <Button android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:background="@drawable/xyz"
+        android:id="@+id/bubbles_btn"
+        android:text="BUBBLES" />
+</LinearLayout>

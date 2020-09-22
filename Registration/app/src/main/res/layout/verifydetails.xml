@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Details"
+        android:layout_gravity="center_horizontal" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <TableRow>
+            <TextView
+                android:text="Name"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:id="@+id/name"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Mobile No."
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:layout_column="0" />
+            <TextView
+                android:text="---"
+                android:id="@+id/num"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="date"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:layout_column="0" />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:id="@+id/date"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="gender"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:layout_column="0" />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Couses"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:layout_column="0" />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/button1"
+        android:ems="7"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/button2"
+        android:ems="7"
+        />
+
+</LinearLayout>

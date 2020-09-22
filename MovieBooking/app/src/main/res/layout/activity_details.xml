@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="horizontal|vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.user.moviebooking.Details">
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Details"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <TableRow>
+            <TextView
+                android:text="City"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:ems="2"
+                android:id="@+id/textView1"
+                />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:id="@+id/city"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Movie Hall"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:id="@+id/textView2"
+                android:layout_column="0" />
+            <TextView
+                android:text="---"
+                android:id="@+id/hall"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Movie Name"
+                android:textSize="20dp"
+                android:id="@+id/textView3"
+                android:layout_marginLeft="20dp"
+                android:ems="6"
+                 />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:id="@+id/movie"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Time"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:id="@+id/textView4"
+                android:layout_column="0" />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:id="@+id/tim"
+                android:ems="10"
+
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Seats"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:id="@+id/textView5"
+                android:layout_column="0" />
+            <TextView
+                android:text="---"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:id="@+id/seats"
+                android:ems="10"
+                />
+        </TableRow>
+    </TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You!!!"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+
+        android:id="@+id/text"
+        android:ems="10"
+        />
+</LinearLayout>
+</ScrollView>

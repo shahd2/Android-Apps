@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.listview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HistoricalMonuments" android:label="Historical Monuments"/>
+        <activity android:name=".NatureParks" android:label="Nature and Parks"/>
+        <activity android:name=".Temples" android:label="Temples"/>
+        <activity android:name=".Markets" android:label="Markets"/>
+        <activity android:name=".Malls" android:label="Malls"/>
+        <activity android:name=".BaraImambara"  android:label="@string/b"/>
+        <activity android:name=".ChotoImambara" android:label="Chota Imambara"/>
+        <activity android:name=".BritishResidency" android:label="British Residency"/>
+        <activity android:name=".ChattarManzil" android:label="Chattar Manzil"/>
+        <activity android:name=".Constatine" android:label="Constatina House"/>
+        <activity android:name=".RumiDarwaza" android:label="Rumi Darwaza"/>
+        <activity android:name=".BalajiTemple" android:label="Balaji Temple"/>
+        <activity android:name=".Chndrika" android:label="Chandrika Devi Temple"/>
+        <activity android:name=".Description1" />
+        <activity android:name=".AliganjHanuman" android:label="Aliganj Hanuman Temple" />
+        <activity android:name=".SankatMochan" android:label="Sankat Mochan Hanuman Temple"/>
+        <activity android:name=".SheetalaDevi" android:label="Sheetala Devi Temple"/>
+        <activity android:name=".Setu" android:label="Hanuman Setu Temple"/>
+        <activity android:name=".Surya" android:label="Surya Temple"/>
+        <activity android:name=".Shiva" android:label="Nageshwar Shiva Temple"/>
+        <activity android:name=".Mann" android:label="Mankameshwar Temple"/>
+        <activity android:name=".Bhoot" android:label="Bhootnath Temple"/>
+    </application>
+
+</manifest>

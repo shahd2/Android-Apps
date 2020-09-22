@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.user.maploc.phonenum"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number 1"
+        android:paddingTop="20dp"
+        android:textColor="@color/white"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textView2"
+       />
+    <EditText
+        android:id="@+id/pnum1"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:hint="Num1"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phone1"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/pnum1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number 2"
+        android:textColor="@color/white"
+        android:paddingTop="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:id="@+id/textView4" />
+    <EditText
+        android:id="@+id/pnum2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:hint="Num2"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number 3"
+        android:textColor="@color/white"
+        android:paddingTop="20dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/pnum2"
+        android:layout_alignLeft="@+id/pnum2"
+        android:layout_alignStart="@+id/pnum2" />
+    <EditText
+        android:id="@+id/pnum3"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:hint="Num3"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/save"
+        android:text="Save"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="137dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/phone1"
+        android:layout_alignBottom="@+id/pnum2"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/phone1"
+        android:layout_alignBottom="@+id/pnum3"/>
+
+</RelativeLayout>

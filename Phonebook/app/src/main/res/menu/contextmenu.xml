@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/call"
+        android:title="Call"
+        />
+    <item
+        android:id="@+id/msg"
+        android:title="Message"
+        />
+    <item
+        android:id="@+id/updateRecord"
+        android:title="Update Record"
+        />
+    <item
+        android:id="@+id/deleteRecord"
+        android:title="Delete Record"
+        />
+</menu>

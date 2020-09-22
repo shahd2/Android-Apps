@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.mediaplayer.SplashScreen"
+    android:background="@drawable/simplelightstwitterbackgroundnew">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Media"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:gravity="center_horizontal"
+        android:id="@+id/textView"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteY="231dp"
+        tools:layout_editor_absoluteX="133dp"
+        tools:ignore="MissingConstraints"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Player"
+        android:textStyle="italic"
+        android:textAllCaps="true"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteY="293dp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:ignore="MissingConstraints"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:id="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/icons8_circledplayfilled"
+        tools:layout_editor_absoluteY="155dp"
+        tools:layout_editor_absoluteX="167dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp" />
+</RelativeLayout>

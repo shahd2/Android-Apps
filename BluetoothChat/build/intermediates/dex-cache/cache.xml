@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Rakesh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_af7216b56c4d21e0a332d878308cb088a731abe7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ProjectsMe\BluetoothChat\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d5f9d8be43bfb1bd09ffd8753c2d667a73fa7997\classes.dex" />
+    </item>
+    <item
+        jar="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.1.0_47b690192da7b448560ba6acc06c931736876692.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rakesh\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_af7216b56c4d21e0a332d878308cb088a731abe7\classes.dex" />
+    </item>
+    <item
+        jar="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_4fe64fa55ce1a4f77545cb9c015d8f2adbd40ce6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rakesh\.android\build-cache\1fc7db5da4e8a3328ddf5e3007cbbab8751eaf74\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b6dad72797f72afc173fc96797e60449ae2e1239\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rakesh\.android\build-cache\9603720709b0e155c3876c8afe4af42a01e75339\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4e7e4b8205dca846bafe2d3cb5810ea4c0245078\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rakesh\.android\build-cache\d927610f103c7882fe7a00e1743d3105fbe9a639\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c672a374ebccd51c0883ba5f0b13b136700fd71\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\ProjectsMe\BluetoothChat\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="161b583ee70cd6418f9cd8fdc373e4a45768711d">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_184825600507e75b4952cb64382a3f87dc840a1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rakesh\.android\build-cache\d68dbe5d87d78e5d5eba13232c2ee526e8c08632\output\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_d1d0871097b06aa30c65c7367beadcb616589f61\classes.dex" />
+    </item>
+    <item
+        jar="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_64a4af1dedc80645c50b0b757c533bbab6c1ffc9.jar" />
+    </item>
+    <item
+        jar="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.1.0_8cf25402c4ec414b763d304013d1c3e10ddd15b3.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Rakesh\.android\build-cache\d68dbe5d87d78e5d5eba13232c2ee526e8c08632\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\ProjectsMe\BluetoothChat\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d31618bc341d59206e4d6d361007b641c054becd\classes.dex" />
+    </item>
+    <item
+        jar="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\NewAndroidApps\BluetoothChat\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_53355bb0dd64c9905d7b9232e9cdb520d85aac00.jar" />
+    </item>
+
+</items>

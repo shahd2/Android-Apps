@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:text="BMI Chart"
+        android:textColor="@color/blue"
+        android:layout_gravity="center_horizontal" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <TableRow>
+            <TextView
+                android:text="BMI"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:textColor="@color/black"/>
+            <TextView
+                android:text="Classification"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:textColor="@color/black"/>
+        </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="@string/one"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:textColor="#0e9fff"
+                android:layout_column="0" />
+            <TextView
+                android:text="Underweight"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:textColor="#0e9fff" />
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:text="18.5 - 24.9"
+                android:paddingLeft="35dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:textColor="#2feb00"/>
+            <TextView
+                android:text="Normal Weight"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:textColor="#2feb00" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="25 - 29.9"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:textColor="#e75309"/>
+            <TextView
+                android:text="Overweight"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:textColor="#e75309" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="&gt;30.0"
+                android:paddingLeft="40dp"
+                android:textSize="20dp"
+                android:ems="6"
+                android:textColor="#ff0000" />
+            <TextView
+                android:text="Obese"
+                android:padding="15dp"
+                android:textSize="20dp"
+                android:ems="10"
+                android:textColor="#ff0000" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

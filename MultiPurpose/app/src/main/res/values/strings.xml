@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MultiPurpose</string>
+    <string name="audio_player">Audio Player</string>
+    <string name="video_player">VIDEO PLAYER</string>
+    <string name="voice_recorder">VOICE RECORDER</string>
+    <string name="video_recorder">VIDEO RECORDER</string>
+    <string name="bmicalculator">BMI Calculator</string>
+    <string name="h1">Enter your weight</string>
+    <string name="h2">Enter your height</string>
+    <string name="t1">Calculate</string>
+    <string name="gen">Gender:</string>
+    <string name="m">Male</string>
+    <string name="f">Female</string>
+    <string name="unit">Unit:</string>
+    <string name="kg">Metric Unit(kg,cm)</string>
+    <string name="lb">Imperial Unit(lb,in)</string>
+    <string name="bmi">TextView for bmi</string>
+    <string name="result">TextView for result</string>
+    <string name="gend">Gender is </string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="one"> &lt;18.5</string>
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#345" >
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech"
+        android:padding="15dip"
+        android:textColor="#0587d9"
+        android:textSize="26dip"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <EditText android:id="@+id/txtText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter some text to speak"
+        android:layout_marginTop="20dip"
+        android:layout_margin="10dip"/>
+
+    <Button android:id="@+id/btnSpeak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Speak Out"
+        android:layout_margin="10dip"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Speech To Text"
+        android:paddingTop="20dp"
+        android:textColor="#0587d9"
+        android:textSize="26dip"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/voiceInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="26dip"
+            />
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/btnSpeakContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btnMic"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/microphone" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#0587d9"
+            android:text="Tap on Mic to Speak" />
+    </LinearLayout>
+</LinearLayout>
